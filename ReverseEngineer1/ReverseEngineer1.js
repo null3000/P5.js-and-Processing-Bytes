@@ -1,5 +1,4 @@
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     background(224, 204, 132);
 }
@@ -22,6 +21,5 @@ function draw() {
     square(50, 50, 350);
 }
 
-function initializeFields() {
-}
+
 

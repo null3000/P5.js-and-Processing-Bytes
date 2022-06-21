@@ -14,7 +14,6 @@ var pipe2y;
 var pipe2Height;
 
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     px = width / 5;
     py = height / 4;
@@ -83,17 +82,4 @@ function resetPipe() {
     pipe2Height = height - pipe2y;
 }
 
-function initializeFields() {
-    gameOver = false;
-    px = 0;
-    py = 0;
-    playerSize = 0;
-    pipeX = 0;
-    pipeWidth = 0;
-    pipeSpeed = 0;
-    gapSize = 0;
-    pipe1Height = 0;
-    pipe2y = 0;
-    pipe2Height = 0;
-}
 

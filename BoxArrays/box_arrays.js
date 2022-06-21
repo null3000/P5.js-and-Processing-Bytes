@@ -5,7 +5,6 @@ var speeds;
 var speed;
 
 function setup() {
-    initializeFields();
     createCanvas(1000, 1000);
     x = 100;
     yPos = new Array(9);
@@ -27,13 +26,5 @@ function draw() {
             xPos[i] = 0;
         }
     }
-}
-
-function initializeFields() {
-    x = 0;
-    yPos = null;
-    xPos = null;
-    speeds = null;
-    speed = 5;
 }
 

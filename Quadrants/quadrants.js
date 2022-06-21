@@ -1,6 +1,4 @@
-
 function setup() {
-    initializeFields();
     createCanvas(600, 600);
 }
 
@@ -21,8 +19,5 @@ function draw() {
     if (mouseX > width / 2 && mouseX < width && mouseY > height / 2 && mouseY > 0) {
         rect(width / 2, height / 2, width / 2, height / 2);
     }
-}
-
-function initializeFields() {
 }
 

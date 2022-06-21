@@ -9,8 +9,21 @@ var moving;
 var xSpeed;
 var ySpeed;
 
+function init() {
+    n = 300;
+    size = 10;
+    x = new Array(n);
+    y = new Array(n);
+    r = new Array(n);
+    g = new Array(n);
+    b = new Array(n);
+    moving = new Array(n);
+    xSpeed = new Array(n);
+    ySpeed = new Array(n);
+}
+
 function setup() {
-    initializeFields();
+    init();
     createCanvas(800, 800);
     for (var i = 0; i < n; i++) {
         x[i] = random(0, width);
@@ -89,16 +102,4 @@ function moveWithMouse(i) {
     }
 }
 
-function initializeFields() {
-    n = 300;
-    size = 10;
-    x = new Array(n);
-    y = new Array(n);
-    r = new Array(n);
-    g = new Array(n);
-    b = new Array(n);
-    moving = new Array(n);
-    xSpeed = new Array(n);
-    ySpeed = new Array(n);
-}
 

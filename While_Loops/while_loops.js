@@ -1,6 +1,7 @@
 var ovalPos;
+
 function setup() {
-    initializeFields();
+    ovalPos = 80;
     createCanvas(600, 600);
 }
 
@@ -27,9 +28,5 @@ function draw() {
             ovalPos = 0;
         }
     }
-}
-
-function initializeFields() {
-    ovalPos = 80;
 }
 

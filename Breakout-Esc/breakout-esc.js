@@ -1,4 +1,7 @@
-
+// CLICK ANY KEY TO START // CLICK ANY KEY TO START
+// CLICK ANY KEY TO START // CLICK ANY KEY TO START
+// CLICK ANY KEY TO START // CLICK ANY KEY TO START
+// CLICK ANY KEY TO START // CLICK ANY KEY TO START
 var ballX;
 var ballY;
 var xSpeed;
@@ -100,20 +103,11 @@ function draw() {
     if (ballY > width) {
         textSize(64);
         delay(10);
-        text("GAME OVER", width / 3.3, height / 2);
         ballX = 900;
         ballY = 900;
         r = 255;
         g = 255;
         b = 255;
-        textSize(32);
-        text("Press Any Key To Play Again", width / 4, height / 1.5);
-        text("Final Level:" + level, width / 4, height / 1.7);
-        text("Final Score:" + score, width / 4, height / 1.6);
-    }
-    if (ballY == height / 2 && ballX == width / 2) {
-        textSize(32);
-        text("Press Any Key To Start", width / 3, height / 1.5);
     }
 }
 

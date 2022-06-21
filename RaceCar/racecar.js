@@ -6,8 +6,11 @@ var r;
 var g;
 var b;
 
+
 function setup() {
-    initializeFields();
+    nCars = 5;
+    x1 = 0;
+    x2 = 0;
     createCanvas(1000, 1000);
     xPos = initRow(nCars);
 }
@@ -58,13 +61,5 @@ function moveCar(x, speed) {
     return newPos;
 }
 
-function initializeFields() {
-    nCars = 5;
-    xPos = null;
-    x1 = 0;
-    x2 = 0;
-    r = 0;
-    g = 0;
-    b = 0;
-}
+
 

@@ -19,8 +19,21 @@ var shotY;
 var shotSpeed;
 var shotShow;
 
+function init() {
+    nStars = 600;
+    score = 0;
+    xStar = new Array(nStars);
+    yStar = new Array(nStars);
+    nShips = 5;
+    xShip = new Array(nShips);
+    yShip = new Array(nShips);
+    show = new Array(nShips);
+    shipSpeed = 5;
+}
+
+
 function setup() {
-    initializeFields();
+    init();
     createCanvas(800, 800);
     // intital player values
     pX = width / 2;
@@ -118,22 +131,4 @@ function mousePressed() {
     shotSpeed = 10;
 }
 
-function initializeFields() {
-    nStars = 600;
-    score = 0;
-    xStar = new Array(nStars);
-    yStar = new Array(nStars);
-    nShips = 5;
-    xShip = new Array(nShips);
-    yShip = new Array(nShips);
-    show = new Array(nShips);
-    shipSpeed = 5;
-    pX = 0;
-    pY = 0;
-    pSpeed = 0;
-    shotX = 0;
-    shotY = 0;
-    shotSpeed = 0;
-    shotShow = false;
-}
 

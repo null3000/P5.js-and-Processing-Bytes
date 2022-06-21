@@ -1,4 +1,3 @@
-
 var AA;
 var AR;
 var RT;
@@ -7,7 +6,12 @@ var red;
 var black;
 
 function setup() {
-    initializeFields();
+    AA = 0;
+    AR = 0;
+    RT = 30;
+    S = 1;
+    red = color(255, 0, 0);
+    black = color(0, 0, 0);
     createCanvas(800, 800);
     smooth();
     noStroke();
@@ -38,14 +42,5 @@ function keyTyped() {
         S = max(RT - .1, .1);
     if (key == 'S')
         RT += .01;
-}
-
-function initializeFields() {
-    AA = 0;
-    AR = 0;
-    RT = 30;
-    S = 1;
-    red = color(255, 0, 0);
-    black = color(0, 0, 0);
 }
 

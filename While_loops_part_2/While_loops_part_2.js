@@ -1,5 +1,4 @@
 function setup() {
-    initializeFields();
     createCanvas(400, 400);
 }
 
@@ -20,8 +19,5 @@ function draw() {
         stroke(random(0, 255), random(0, 255), random(0, 255));
         line(lineX, 0, lineX, height);
     }
-}
-
-function initializeFields() {
 }
 

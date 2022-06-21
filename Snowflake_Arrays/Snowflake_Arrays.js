@@ -1,8 +1,8 @@
 var circleY;
 
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
+		circleY = new Array(100);
     for (var i = 0; i < circleY.length; i++) {
         circleY[i] = random(height);
     }
@@ -19,8 +19,3 @@ function draw() {
         }
     }
 }
-
-function initializeFields() {
-    circleY = new Array(100);
-}
-

@@ -6,11 +6,7 @@ void draw() {
   background(0);
    fill(30,200,90);
    rect(mouseX - 150,mouseY - 200,300,400);
-   //rect(100,100,mouseY/2,mouseY);
-   
-  //fill(mouseX/3,mouseY/3,mouseX);
-  //circle(400,400,150); 
-   
+  
    fill(mouseX,mouseY/3,mouseX/3);
    circle(300,mouseY,50);
    

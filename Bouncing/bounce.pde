@@ -1,6 +1,7 @@
 int x;
 int speed;
 int g;
+
 void setup() {
   size(800, 800);
   x = width/2;

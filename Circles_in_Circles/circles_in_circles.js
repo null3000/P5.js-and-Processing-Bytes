@@ -1,5 +1,4 @@
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     noStroke();
     noLoop();
@@ -20,6 +19,4 @@ function draw() {
     drawCircle(width / 2, 280, 6);
 }
 
-function initializeFields() {
-}
 

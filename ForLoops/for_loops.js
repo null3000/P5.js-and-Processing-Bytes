@@ -1,5 +1,4 @@
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
 }
 
@@ -11,7 +10,3 @@ function draw() {
         line(lineX, 0, lineX, height);
     }
 }
-
-function initializeFields() {
-}
-

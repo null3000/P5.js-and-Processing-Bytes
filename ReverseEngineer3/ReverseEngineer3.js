@@ -28,10 +28,23 @@ function initPos(n) {
     }
     return positions;
 }
-
+  
 function setup() {
-    initializeFields();
-    createCanvas(800, 800);
+	createCanvas(800, 800);
+    nShips1 = 7;
+    nShips2 = 6;
+    nShips3 = 5;
+    nShips4 = 4;
+    nShips5 = 3;
+    nShips6 = 2;
+    nShips7 = 1;
+		speed1 = 1;
+    speed2 = 2;
+    speed3 = 3;
+    speed4 = 4;
+    speed5 = 5;
+    speed6 = 6;
+    speed7 = 7;
     xPos1 = initPos(nShips1);
     xPos2 = initPos(nShips2);
     xPos3 = initPos(nShips3);
@@ -102,27 +115,5 @@ function drawShips(x, y, size) {
     triangle(x + (3 * size / 10), y, x + (7 * size / 10), y, x + (size / 2), y + (2 * size));
 }
 
-function initializeFields() {
-    xPos1;
-    xPos2;
-    xPos3;
-    xPos4;
-    xPos5;
-    xPos6;
-    xPos7;
-    nShips1 = 7;
-    nShips2 = 6;
-    nShips3 = 5;
-    nShips4 = 4;
-    nShips5 = 3;
-    nShips6 = 2;
-    nShips7 = 1;
-    speed1 = 1;
-    speed2 = 2;
-    speed3 = 3;
-    speed4 = 4;
-    speed5 = 5;
-    speed6 = 6;
-    speed7 = 7;
-}
+
 

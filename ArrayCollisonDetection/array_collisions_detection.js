@@ -6,8 +6,8 @@ var size;
 var clicked;
 var nClicked;
 
+
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     for (var i = 0; i < nCircles; i++) {
         x[i] = random(0, width);
@@ -35,13 +35,5 @@ function draw() {
     }
 }
 
-function initializeFields() {
-    nums = new Array(5);
-    nCircles = 1000;
-    x = new Array(nCircles);
-    y = new Array(nCircles);
-    size = new Array(nCircles);
-    clicked = new Array(nCircles);
-    nClicked = 0;
-}
+
 

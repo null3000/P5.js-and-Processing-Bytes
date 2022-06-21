@@ -2,8 +2,8 @@ var x;
 var r;
 var g;
 var b;
+
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     x = 0;
 }
@@ -27,10 +27,5 @@ function draw() {
     }
 }
 
-function initializeFields() {
-    x = 0;
-    r = 0;
-    g = 200;
-    b = 150;
-}
+
 

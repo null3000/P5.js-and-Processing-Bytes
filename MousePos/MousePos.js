@@ -1,6 +1,5 @@
 
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
 }
 
@@ -24,7 +23,3 @@ function mousePressed() {
 function keyPressed() {
     background(255);
 }
-
-function initializeFields() {
-}
-

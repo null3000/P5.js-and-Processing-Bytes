@@ -2,8 +2,9 @@ var x;
 var speed;
 var g;
 
+
+
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     x = width / 2;
     speed = 5;
@@ -26,9 +27,5 @@ function mousePressed() {
     }
 }
 
-function initializeFields() {
-    x = 0;
-    speed = 0;
-    g = 0;
-}
+
 

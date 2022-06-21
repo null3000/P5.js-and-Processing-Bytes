@@ -1,8 +1,6 @@
-
 var pressed;
 
 function setup() {
-    initializeFields();
     createCanvas(600, 600);
 }
 
@@ -30,7 +28,4 @@ function mousePressed() {
     }
 }
 
-function initializeFields() {
-    pressed = false;
-}
 

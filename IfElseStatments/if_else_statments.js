@@ -7,7 +7,6 @@ var xSpeed;
 var ySpeed;
 
 function setup() {
-    initializeFields();
     createCanvas(800, 800);
     y = 0;
     x = width / 2;
@@ -34,15 +33,5 @@ function draw() {
     } else {
         r = r - 1;
     }
-}
-
-function initializeFields() {
-    x = 0;
-    y = 0;
-    r = 100;
-    ballX = 0;
-    ballY = 0;
-    xSpeed = 0;
-    ySpeed = 0;
 }
 
